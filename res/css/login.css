@@ -1,0 +1,56 @@
+html {
+    background: #111;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+nav form {
+    margin-top: 7px;
+    width: 60%;
+}
+
+.container>.navbar-collapse,
+.container>.navbar-header {
+    float: right;
+}
+
+.container>.navbar-header a span {
+    color: red;
+}
+
+.container>.navbar-header a {
+    color: white;
+    font-size: 22pt;
+}
+
+div.box-form form {
+    width: 50%;
+    margin: auto;
+}
+
+div.box-form form div.error p {
+    border: 1px solid #aaa;
+    border-right: none;
+    border-bottom: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15pt;
+}
+
+div.box-form form div.error p span {
+    color: rgb(194, 2, 75);
+}
+
+div.footer {
+    margin-top: 50px;
+    background: #111;
+    color: #999;
+    padding-top: 10px;
+    font-size: 8pt;
+}
+
+div.footer span {
+    color: rgb(51, 247, 51);
+}

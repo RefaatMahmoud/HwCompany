@@ -1,0 +1,80 @@
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    border-radius: 0;
+}
+
+div.box {
+    margin-bottom: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+div.box h3 {
+    font-size: 34px;
+}
+
+div.box div.box-img {
+    margin: 30px 0;
+    border-top: 1px solid rgb(240, 239, 239);
+    border-bottom: 1px solid rgb(240, 239, 239);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+div.box div.box-img img {
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+
+div.box div.box-info p {
+    margin-bottom: 20px;
+    height: 65px;
+    overflow: hidden;
+}
+
+#container div.mix {
+    display: none;
+}
+
+div.container form.add-item {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+div.footer {
+    background-color: black;
+    color: rgb(36, 32, 32);
+    padding: 10px;
+}
+
+nav.navbar div.container div.nav-right {
+    width: 12%;
+    padding-top: 10px;
+    float: right;
+}
+
+nav.navbar div.container div.nav-right span {
+    color: #f27;
+    font-size: 14pt;
+}
+
+nav.navbar div.container div.nav-right span:after {
+    content: " | ";
+    color: #5c5c5c;
+    font-size: 15pt;
+}
+
+nav.navbar div.container div.nav-right a:hover {
+    text-decoration: none;
+}
